@@ -7,15 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PipesExample';
-
   appareils = [
     {
       name: 'Iphone',
-      status: false
+      status: false,
+      lastUpdate: new Date()
     },
     {
       name: 'Xbox One',
-      status: true
+      status: true,
+      lastUpdate: new Date()
     },
     
   ];

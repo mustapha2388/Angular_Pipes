@@ -9,6 +9,7 @@ export class AppareilComponent implements OnInit {
 
   @Input() appareilName: string;
   @Input() appareilStatus: boolean;
+  @Input() appareilDate: Date;
 
 
   constructor() { }
