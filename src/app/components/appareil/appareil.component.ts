@@ -9,7 +9,10 @@ export class AppareilComponent implements OnInit {
 
   @Input() appareilName: string;
   @Input() appareilStatus: boolean;
-  @Input() appareilDate: Date;
+  
+
+
+  
 
 
   constructor() { }
@@ -34,5 +37,14 @@ export class AppareilComponent implements OnInit {
     else
       return 'red';
   }
+
+  appareilDate = new Promise((resolve, reject) => {
+    const date = new Date();
+    setTimeout(
+      () => {
+        resolve(date);
+      }, 2000
+    );
+  });
 
 }

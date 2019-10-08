@@ -11,13 +11,11 @@ export class AppComponent {
     {
       name: 'Iphone',
       status: false,
-      lastUpdate: new Date()
     },
     {
       name: 'Xbox One',
       status: true,
-      lastUpdate: new Date()
     },
-    
+
   ];
 }
