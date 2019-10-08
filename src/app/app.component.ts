@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PipesExample';
+
+  appareils = [
+    {
+      name: 'Iphone',
+      status: false
+    },
+    {
+      name: 'Xbox One',
+      status: true
+    },
+    
+  ];
 }
